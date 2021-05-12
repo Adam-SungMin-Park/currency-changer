@@ -22,6 +22,9 @@ function App() {
     fromAmount = amount / exchangeRate
   }
 
+
+  var test = [currencyOptions]
+
   console.log(exchangeRate)
   useEffect(()=>{
     fetch(BASE_URL)
