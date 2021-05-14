@@ -23,9 +23,10 @@ function App() {
   }
 
 
-  var test = [currencyOptions]
 
-  console.log(exchangeRate)
+
+
+
   useEffect(()=>{
     fetch(BASE_URL)
     .then(res =>res.json())
